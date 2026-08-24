@@ -1,0 +1,6 @@
+fastapi>=0.116
+uvicorn[standard]>=0.35
+kagglehub>=0.3
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5

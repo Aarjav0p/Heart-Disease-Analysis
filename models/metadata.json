@@ -1,0 +1,53 @@
+{
+  "dataset": "sid321axn/heart-statlog-cleveland-hungary-final",
+  "rows": 918,
+  "features": [
+    "age",
+    "sex",
+    "chest pain type",
+    "resting bp s",
+    "cholesterol",
+    "fasting blood sugar",
+    "resting ecg",
+    "max heart rate",
+    "exercise angina",
+    "oldpeak",
+    "ST slope"
+  ],
+  "categorical_columns": [
+    "sex",
+    "chest pain type",
+    "fasting blood sugar",
+    "resting ecg",
+    "exercise angina",
+    "ST slope"
+  ],
+  "numerical_columns": [
+    "age",
+    "resting bp s",
+    "cholesterol",
+    "max heart rate",
+    "oldpeak"
+  ],
+  "target": "target",
+  "random_state": 42,
+  "test_size": 0.2,
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.8967,
+      "balancedAccuracy": 0.8925,
+      "precision": 0.8879,
+      "recall": 0.9314,
+      "f1": 0.9091,
+      "rocAuc": 0.9296
+    },
+    "Random Forest": {
+      "accuracy": 0.9022,
+      "balancedAccuracy": 0.8986,
+      "precision": 0.8962,
+      "recall": 0.9314,
+      "f1": 0.9135,
+      "rocAuc": 0.9382
+    }
+  }
+}
