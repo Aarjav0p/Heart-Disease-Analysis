@@ -1,6 +1,6 @@
-use client'
+'use client';
 
-import { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react';
 import {
   Activity, BarChart3, BrainCircuit, ChevronDown, CircleHelp, Gauge,
   HeartPulse, LayoutDashboard, Menu, RotateCcw, Settings2, ShieldCheck,
