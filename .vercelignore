@@ -1,3 +1,7 @@
-backend/
 *.bat
-README.local.md
+venv/
+__pycache__/
+backend/
+train_models.py
+training_requirements.txt
+data/

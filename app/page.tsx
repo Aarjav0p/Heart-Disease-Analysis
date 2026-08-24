@@ -87,7 +87,7 @@ export default function Page() {
     setLoading(true)
     setError(null)
     try {
-      const response = await fetch(`${API_BASE}/predict`, {
+      const response = await fetch(`${API_BASE}/api/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(patient),
